@@ -1,11 +1,11 @@
 package logx
 
 import (
-	"encoding/json"
 	"io"
 	"os"
 	"strings"
 
+	"github.com/GokselKUCUKSAHIN/jsonx"
 	"github.com/sirupsen/logrus"
 )
 
@@ -239,7 +239,7 @@ func (l *Logger) Println(i ...any) {
 }
 
 func (l *Logger) Printj(j JSON) {
-	b, err := json.Marshal(j)
+	b, err := jsonx.Marshal(j)
 	if err != nil {
 		panic(err)
 	}
@@ -255,7 +255,7 @@ func (l *Logger) Debugf(format string, args ...any) {
 }
 
 func (l *Logger) Debugj(j JSON) {
-	b, err := json.Marshal(j)
+	b, err := jsonx.Marshal(j)
 	if err != nil {
 		panic(err)
 	}
@@ -271,7 +271,7 @@ func (l *Logger) Infof(format string, args ...any) {
 }
 
 func (l *Logger) Infoj(j JSON) {
-	b, err := json.Marshal(j)
+	b, err := jsonx.Marshal(j)
 	if err != nil {
 		panic(err)
 	}
@@ -287,7 +287,7 @@ func (l *Logger) Warnf(format string, args ...any) {
 }
 
 func (l *Logger) Warnj(j JSON) {
-	b, err := json.Marshal(j)
+	b, err := jsonx.Marshal(j)
 	if err != nil {
 		panic(err)
 	}
@@ -303,7 +303,7 @@ func (l *Logger) Errorf(format string, args ...any) {
 }
 
 func (l *Logger) Errorj(j JSON) {
-	b, err := json.Marshal(j)
+	b, err := jsonx.Marshal(j)
 	if err != nil {
 		panic(err)
 	}
@@ -319,7 +319,7 @@ func (l *Logger) Fatalf(format string, args ...any) {
 }
 
 func (l *Logger) Fatalj(j JSON) {
-	b, err := json.Marshal(j)
+	b, err := jsonx.Marshal(j)
 	if err != nil {
 		panic(err)
 	}
@@ -335,7 +335,7 @@ func (l *Logger) Panicf(format string, args ...any) {
 }
 
 func (l *Logger) Panicj(j JSON) {
-	b, err := json.Marshal(j)
+	b, err := jsonx.Marshal(j)
 	if err != nil {
 		panic(err)
 	}
