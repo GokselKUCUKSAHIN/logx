@@ -1,0 +1,13 @@
+project_name: logx
+
+release:
+  github:
+    name: logx
+    owner: GokselKUCUKSAHIN
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  - skip: true
