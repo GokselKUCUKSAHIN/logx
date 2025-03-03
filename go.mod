@@ -3,7 +3,7 @@ module github.com/GokselKUCUKSAHIN/logx
 go 1.18
 
 require (
-	github.com/GokselKUCUKSAHIN/jsonx v1.0.0
+	github.com/GokselKUCUKSAHIN/jsonx v1.0.5
 	github.com/sirupsen/logrus v1.9.3
 )
 

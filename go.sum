@@ -1,5 +1,5 @@
-github.com/GokselKUCUKSAHIN/jsonx v1.0.0 h1:MGDRAxmkaqH4xeg7W4H1Ms9MbH0CS+cEbUX0kg24mBM=
-github.com/GokselKUCUKSAHIN/jsonx v1.0.0/go.mod h1:U357I3CBZKg36OnbwSsOKXzDYTd2809FRSGy4CTXEiE=
+github.com/GokselKUCUKSAHIN/jsonx v1.0.5 h1:XME17IPppCXKRbYLf4w1XQorQztBHttwZf/WV8tx5KI=
+github.com/GokselKUCUKSAHIN/jsonx v1.0.5/go.mod h1:4xdVeG9dmMoiRSZqFeZ47Zu3tFAOumNnRiXrWzSNJ4g=
 github.com/bytedance/sonic v1.12.9 h1:Od1BvK55NnewtGaJsTDeAOSnLVO2BTSLOe0+ooKokmQ=
 github.com/bytedance/sonic v1.12.9/go.mod h1:uVvFidNmlt9+wa31S1urfwwthTWteBgG0hWuoKAXTx8=
 github.com/bytedance/sonic/loader v0.1.1/go.mod h1:ncP89zfokxS5LZrJxl5z0UJcsk4M4yY2JpfqGeCtNLU=
